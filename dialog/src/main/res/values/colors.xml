@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 앱 리뉴얼 색상 정의 -->
+    <color name="brand_color_basic">#5979FF</color>
+    <color name="brand_color_strong">#3E71F0</color>
+    <color name="brand_color_green">#067C62</color>
+
+    <color name="body_color_title">#111111</color>
+    <color name="body_color_strong">#303340</color>
+    <color name="body_color_basic_1">#333A44</color>
+    <color name="body_color_basic_2">#535B67</color>
+    <color name="body_color_basic_3">#818990</color>
+    <color name="body_color_btn">#7D859B</color>
+    <color name="body_color_placeholder">#D0D0D0</color>
+
+    <color name="line_color_basic_line_1">#EEEFF4</color>
+    <color name="line_color_basic_line_2">#DEE0EA</color>
+    <color name="line_color_basic_strong_line_1">#D9D9D9</color>
+    <color name="line_color_basic_strong_line_2">#BFBFBF</color>
+
+    <color name="point_color_background">#E5F0FF</color>
+    <color name="point_color_background_gray">#F2F3F7</color>
+    <color name="point_color_background_gray_2">#EDEEF3</color>
+    <color name="point_color_background_message">#BBC6D6</color>
+    <color name="point_color_point_red">#EE4951</color>
+    <color name="point_color_icon_off">#B0B6C4</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
