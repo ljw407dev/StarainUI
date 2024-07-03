@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "my.starain.test.app"
-        minSdk = 24
+        minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "0.0.1"
