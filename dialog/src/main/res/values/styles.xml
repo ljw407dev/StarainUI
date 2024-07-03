@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  DP 고정 폰트 사이즈   -->
+    <!--  Heading  -->
+    <style name="DwTextAppearance.Title.600.25dp" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">25dp</item>
+        <item name="android:fontFamily">@font/pretendard_600</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="DwTextAppearance.Title.700.18dp" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/pretendard_700</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="DwTextAppearance.Title.600.18dp" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/pretendard_600</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="DwTextAppearance.Title.500.16dp" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/pretendard_500</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+
+    <!--  Body  -->
+    <style name="DwTextAppearance.Body.Bold.600.15dp" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/pretendard_600</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="DwTextAppearance.Body.400.18dp" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/pretendard_400</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="DwTextAppearance.Body.400.15dp" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/pretendard_400</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <!--  Caption  -->
+    <style name="DwTextAppearance.Body.400.13dp" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/pretendard_400</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+
+    <!--  버튼 스타일  -->
+    <style name="DwButton.Material.Normal" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:maxLines">1</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/dw_btn_text_color</item>
+        <item name="android:fontFamily">@font/pretendard_600</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textSize">16dp</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="backgroundTint">@color/dw_btn_bg_color</item>
+    </style>
+
+    <style name="DwButton.Material.Gray" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:maxLines">1</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/body_color_btn</item>
+        <item name="android:fontFamily">@font/pretendard_600</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textSize">16dp</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="backgroundTint">@color/point_color_background_gray</item>
+    </style>
+
+
+    <style name="DwRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/dw_radio_btn_text_color</item>
+        <item name="android:fontFamily">@font/pretendard_600</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">@drawable/dw_btn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="alertDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">300dp</item>
+        <item name="android:windowMinWidthMinor">300dp</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowFixedWidthMajor">300dp</item>
+        <item name="windowFixedWidthMinor">300dp</item>
+    </style>
+
+</resources>
